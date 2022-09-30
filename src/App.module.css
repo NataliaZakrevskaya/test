@@ -90,15 +90,14 @@
     flex-wrap: wrap;
     gap: 13px;
     margin: 11px 40px 11px 412px;
-    max-width: 589px;
-    min-width: 589px;
+    max-width: 598px;
+    min-width: 598px;
 }
 
 .linksBlock > a {
     color: rgb(255, 255, 60);
-    font-family: Cambria;
-    font-weight: 700;
-    font-size: 24px;
+    font-family: "Cambria";
+    font-size: 23px;
     margin-bottom: 4px;
 }
 
@@ -119,13 +118,14 @@
     display: flex;
     flex-direction: column;
     gap: 22px;
+    max-width: 208px;
+    min-width: 208px;
     margin: 11px 40px 15px 0;
 }
 
 .tel > p {
-    font-size: 20px;
-    font-family: Tahoma;
-    font-weight: 700;
+    font-size: 19px;
+    font-family: "Tahoma";
     color: white;
 }
 
@@ -137,8 +137,7 @@
     color: white;
     padding: 20px 35px;
     font-size: 20px;
-    font-family: Tahoma;
-    font-weight: 700;
+    font-family: "Tahoma";
     background: linear-gradient(to bottom, #d20300, #710909);
     margin-top: 15px;
     border: none;
@@ -154,8 +153,7 @@
 }
 
 .headerBottom > a {
-    font-family: Tahoma;
-    font-weight: 700;
+    font-family: "Tahoma";
     font-size: 18px;
     color: #fff;
 }
@@ -179,8 +177,7 @@
 
 .serviceItem > p {
     font-size: 14px;
-    font-family: Tahoma;
-    font-weight: 700;
+    font-family: "Tahoma";
     color: #fff;
 }
 
@@ -227,8 +224,7 @@
 
 .menuItem > p {
     font-size: 14px;
-    font-family: Tahoma;
-    font-weight: 700;
+    font-family: "Tahoma";
     color: #fff;
 }
 
@@ -267,8 +263,7 @@
 
 .navItem > p {
     font-size: 14px;
-    font-family: Tahoma;
-    font-weight: 700;
+    font-family: "Tahoma";
     color: #fff;
 }
 
@@ -295,8 +290,7 @@
 
 .floatNavbar > div > a {
     color: #fff;
-    font-family: Tahoma;
-    font-weight: 700;
+    font-family: "Tahoma";
     font-size: 18px;
 }
 
@@ -325,9 +319,10 @@
     min-width: 436px;
 }
 
-.floatNavigation > div:active {
+/*.floatNavigation > div:active {
     background: linear-gradient(to bottom, #b4b4b4, #201d1d);
-}
+}*/
+
 
 .floatNavigation > div:nth-child(2) {
     min-width: 462px;
@@ -355,15 +350,13 @@
 
 .floatNavigation > div:last-child > div > p {
     font-size: 18px;
-    font-weight: 700;
-    font-family: Tahoma;
+    font-family: "Tahoma";
     color: #fff;
 }
 
 .floatNavigation > div > p {
     font-size: 18px;
-    font-weight: 700;
-    font-family: Tahoma;
+    font-family: "Tahoma";
     color: #fff;
 }
 
@@ -394,8 +387,7 @@
 
 .floatServiceItem > p {
     font-size: 14px;
-    font-family: Tahoma;
-    font-weight: 700;
+    font-family: "Tahoma";
     color: #fff;
 }
 
@@ -436,8 +428,7 @@
 
 .floatNavigationMenu > div > p {
     font-size: 14px;
-    font-family: Tahoma;
-    font-weight: 700;
+    font-family: "Tahoma";
     color: #fff;
 }
 
@@ -512,8 +503,7 @@
     .headerButton > button {
         padding: 20px 19px 20px 21px;
         font-size: 19px;
-        font-family: Tahoma;
-        font-weight: 700;
+        font-family: "Tahoma";
         background: linear-gradient(to bottom, #d20300, #710909);
         margin-top: 15px;
         border: none;
@@ -751,6 +741,9 @@
 
     .floatNavigation > div {
         min-width: 174px;
+    }
+    .floatNavigation > div:active {
+        background: linear-gradient(to bottom, #b4b4b4, #201d1d);
     }
 
     .floatNavigation > div:nth-child(2) {
@@ -995,5 +988,10 @@
     .floatNavigationMenu > div {
         max-width: 300px;
         min-width: 300px;
+    }
+}
+@media (min-width: 769px) {
+    .floatNavigation > div:hover {
+        background: linear-gradient(to bottom, #b4b4b4, #201d1d);
     }
 }

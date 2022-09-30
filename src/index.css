@@ -1,9 +1,19 @@
+@font-face {
+    font-family: "Cambria";
+    src: url("fonts/Cambria-Bold.woff") format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: "Tahoma";
+    src: url("fonts/Tahoma-Bold.woff") format('woff');
+    font-display: swap;
+}
 body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background: rgb(33, 0, 0);
-    font-family: Tahoma;
+    font-family: "Tahoma";
 }
 
 code {
