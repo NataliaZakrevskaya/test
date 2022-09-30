@@ -149,13 +149,16 @@
 
 .headerBottom {
     display: flex;
-    gap: 120px
+    gap: 121px
 }
 
 .headerBottom > a {
     font-family: "Tahoma";
     font-size: 18px;
     color: #fff;
+}
+.headerBottom > a:last-child {
+    margin-left: 3px;
 }
 
 .menu {
@@ -232,7 +235,7 @@
     margin-top: 14px;
     max-width: 450px;
     min-width: 450px;
-    min-height: 402px;
+    min-height: 401px;
 }
 
 .menuPhotoContainer > img {
@@ -318,11 +321,6 @@
     background: linear-gradient(to bottom, #9e0606, #360606);
     min-width: 436px;
 }
-
-/*.floatNavigation > div:active {
-    background: linear-gradient(to bottom, #b4b4b4, #201d1d);
-}*/
-
 
 .floatNavigation > div:nth-child(2) {
     min-width: 462px;
@@ -469,7 +467,7 @@
     }
 
     .headerLogoContainer > p {
-        font-size: 11.34px;
+        font-size: 12px;
         left: 102px;
         top: 23px;
     }
@@ -502,11 +500,6 @@
 
     .headerButton > button {
         padding: 20px 19px 20px 21px;
-        font-size: 19px;
-        font-family: "Tahoma";
-        background: linear-gradient(to bottom, #d20300, #710909);
-        margin-top: 15px;
-        border: none;
     }
 
     .headerButton > button:first-child {
@@ -516,7 +509,7 @@
     .headerBottom {
         display: flex;
         padding: 0 10px;
-        gap: 50px
+        gap: 52px
     }
 
     .floatNavigation > div {
@@ -552,8 +545,9 @@
 
 @media (max-width: 1024px) {
     .telBtnContainer {
-        margin-left: 362px;
+        margin-left: 368px;
         margin-top: 17px;
+        margin-bottom: 29px;
     }
 
     .tel {
@@ -586,6 +580,9 @@
     .linksBlock {
         gap: 10px;
     }
+    .linksBlock > a:last-child {
+        margin-left: 6px;
+    }
 
     .linksBlock > a {
         font-size: 20px;
@@ -594,17 +591,20 @@
 
     .linksBlock > div {
         height: 20px;
-        margin-top: 1px;
+        margin-top: 4px;
     }
 
     .headerBottom {
-        padding: 15px 0 0 0;
+        padding: 13px 0 0 0;
         gap: 36px
     }
 
 
     .headerBottom > a {
         font-size: 14px;
+    }
+    .headerBottom > a:last-child {
+        margin-left: 4px;
     }
 
     .floatNavigation > div {
@@ -674,6 +674,7 @@
         min-width: 445px;
         display: flex;
         flex-wrap: wrap;
+        gap: 10px;
     }
 
     .linksBlock > a {
@@ -681,9 +682,14 @@
         margin-bottom: 0;
     }
 
+    .linksBlock > a:last-child {
+        margin-left: 0;
+    }
+
     .linksBlock > div {
         height: 18px;
         margin-top: 2px;
+        width: 3px;
     }
 
     .headerButton {
@@ -727,8 +733,14 @@
         margin-bottom: 15px;
     }
 
+    .headerBottom > a:nth-child(6) {
+        margin-right: 35px;
+    }
     .headerBottom > a:nth-child(7) {
         margin-right: 0;
+    }
+    .headerBottom > a:last-child {
+        margin-left: 0;
     }
 
     .floatNavigation > div > p {
@@ -742,6 +754,7 @@
     .floatNavigation > div {
         min-width: 174px;
     }
+
     .floatNavigation > div:active {
         background: linear-gradient(to bottom, #b4b4b4, #201d1d);
     }
@@ -921,7 +934,7 @@
     }
 
     .tel {
-        gap: 8px;
+        gap: 6px;
         max-width: 300px;
         min-width: 300px;
         margin: 0 0 18px 0;
@@ -937,43 +950,43 @@
     }
 
     .headerButton > button {
-        max-width: 300px;
-        min-width: 300px;
+        max-width: 298px;
+        min-width: 298px;
     }
 
     .headerButton > button:nth-child(2) {
-        max-width: 300px;
-        min-width: 300px;
+        max-width: 298px;
+        min-width: 298px;
     }
 
     .serviceItem {
-        max-width: 300px;
-        min-width: 300px;
+        max-width: 298px;
+        min-width: 298px;
     }
 
     .navItem {
-        max-width: 300px;
-        min-width: 300px;
+        max-width: 298px;
+        min-width: 298px;
     }
 
     .menuItemContainer {
-        max-width: 300px;
-        min-width: 300px;
+        max-width: 298px;
+        min-width: 298px;
     }
 
     .menuItem {
-        max-width: 300px;
-        min-width: 300px;
+        max-width: 298px;
+        min-width: 298px;
     }
 
     .menuPhotoContainer {
-        max-width: 300px;
-        min-width: 300px;
+        max-width: 298px;
+        min-width: 298px;
     }
 
     .floatServiceItem {
-        max-width: 300px;
-        min-width: 300px;
+        max-width: 298px;
+        min-width: 298px;
         left: 10px;
     }
 
@@ -986,10 +999,11 @@
     }
 
     .floatNavigationMenu > div {
-        max-width: 300px;
-        min-width: 300px;
+        max-width: 298px;
+        min-width: 298px;
     }
 }
+
 @media (min-width: 769px) {
     .floatNavigation > div:hover {
         background: linear-gradient(to bottom, #b4b4b4, #201d1d);
