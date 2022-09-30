@@ -1,0 +1,999 @@
+.app {
+    height: 300vh;
+}
+
+.header {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    min-width: 100%;
+}
+
+.headerContainer {
+    padding: 0 30px 15px 30px;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerTop {
+    display: flex;
+    flex-direction: row;
+    min-height: 90px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.headerLogoContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 372px;
+    min-width: 372px;
+}
+
+.nameLogo {
+    position: absolute;
+    left: 17px;
+    top: 35px;
+    width: 135px;
+    height: 57px;
+}
+
+.nameLogo > img {
+    width: 100%;
+    height: 100%;
+}
+
+.swanPaint {
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    width: 191px;
+    height: 87px;
+}
+
+.swanPaint > img {
+    width: 100%;
+    height: 100%;
+}
+
+.swanText {
+    position: absolute;
+    top: 9px;
+    left: 199px;
+    width: 175px;
+    height: 80px;
+}
+
+.swanText > img {
+    width: 100%;
+    height: 100%;
+}
+
+.headerLogoContainer > p {
+    color: rgb(218, 0, 0);
+    font-weight: 700;
+    position: absolute;
+    left: 106px;
+    top: 22px;
+    font-size: 12px;
+}
+
+.linksBlockContainer {
+    display: flex;
+}
+
+.linksBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 13px;
+    margin: 11px 40px 11px 412px;
+    max-width: 589px;
+    min-width: 589px;
+}
+
+.linksBlock > a {
+    color: rgb(255, 255, 60);
+    font-family: Cambria;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.linksBlock > div {
+    width: 4px;
+    height: 24px;
+    background: rgb(255, 255, 60);
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
+.telBtnContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.tel {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin: 11px 40px 15px 0;
+}
+
+.tel > p {
+    font-size: 20px;
+    font-family: Tahoma;
+    font-weight: 700;
+    color: white;
+}
+
+.tel > p > span {
+    color: rgb(181, 199, 253);
+}
+
+.headerButton > button {
+    color: white;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-family: Tahoma;
+    font-weight: 700;
+    background: linear-gradient(to bottom, #d20300, #710909);
+    margin-top: 15px;
+    border: none;
+}
+
+.headerButton > button:first-child {
+    margin-right: 40px;
+}
+
+.headerBottom {
+    display: flex;
+    gap: 120px
+}
+
+.headerBottom > a {
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+
+.menu {
+    position: relative;
+}
+
+.serviceItem {
+    max-width: 450px;
+    min-width: 450px;
+    max-height: 25px;
+    min-height: 25px;
+    background: linear-gradient(to bottom, #da0601, #700909);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.serviceItem > p {
+    font-size: 14px;
+    font-family: Tahoma;
+    font-weight: 700;
+    color: #fff;
+}
+
+.serviceItem > div {
+    position: absolute;
+    right: 11px;
+    top: 7px;
+    border: 8px solid transparent;
+    border-top: 12px solid #fbf0c9;
+}
+
+.menuBlocks {
+    display: flex;
+    flex-direction: row;
+}
+
+.menuItemContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6px;
+    background: linear-gradient(to right, #270000, #760a0a);
+    min-height: 415px;
+    max-width: 216px;
+    z-index: 2;
+    box-shadow: 2px 2px 5px #270000;
+}
+
+.menuItem {
+    max-width: 216px;
+    min-width: 216px;
+    max-height: 24px;
+    min-height: 24px;
+    background: linear-gradient(to bottom, #da0601, #390505);
+    padding-left: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menuItem:active {
+    background: #360303;
+}
+
+.menuItem > p {
+    font-size: 14px;
+    font-family: Tahoma;
+    font-weight: 700;
+    color: #fff;
+}
+
+.menuPhotoContainer {
+    margin-top: 14px;
+    max-width: 450px;
+    min-width: 450px;
+    min-height: 402px;
+}
+
+.menuPhotoContainer > img {
+    height: 100%;
+    width: 100%;
+}
+
+.navItemContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.navItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 450px;
+    min-width: 450px;
+    max-height: 25px;
+    min-height: 25px;
+    padding-left: 10px;
+    background: linear-gradient(to bottom, #da0601, #700909);
+    position: relative;
+}
+
+.navItem > p {
+    font-size: 14px;
+    font-family: Tahoma;
+    font-weight: 700;
+    color: #fff;
+}
+
+.navItem > div {
+    position: absolute;
+    right: 11px;
+    top: 7px;
+    border: 8px solid transparent;
+    border-top: 12px solid #fbf0c9;
+}
+
+.floatNavbar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+}
+
+.floatNavbar > div {
+    padding: 14px 60px 15px 60px;
+    background: linear-gradient(to bottom, #9e0606, #360606);
+    border: none;
+}
+
+.floatNavbar > div > a {
+    color: #fff;
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.floatNavbar > div:first-child {
+    padding: 14px 61px 15px 32px;
+}
+
+.floatNavbar > div:last-child {
+    padding: 14px 39px 15px 61px;
+}
+
+.floatNavigation {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+
+.floatNavigation > div {
+    min-height: 64px;
+    max-height: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #9e0606, #360606);
+    min-width: 436px;
+}
+
+.floatNavigation > div:active {
+    background: linear-gradient(to bottom, #b4b4b4, #201d1d);
+}
+
+.floatNavigation > div:nth-child(2) {
+    min-width: 462px;
+}
+
+.floatNavigation > div:nth-child(3) {
+    min-width: 476px;
+}
+
+.floatNavigation > div:last-child {
+    display: flex;
+    flex-direction: row;
+    min-width: 546px;
+}
+
+.floatNavigation > div:last-child > div {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.floatNavigation > div:last-child > div:first-child {
+    margin-right: 21px;
+}
+
+.floatNavigation > div:last-child > div > p {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Tahoma;
+    color: #fff;
+}
+
+.floatNavigation > div > p {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Tahoma;
+    color: #fff;
+}
+
+.floatServiceItem {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 15px;
+    max-width: 450px;
+    min-width: 450px;
+    max-height: 25px;
+    min-height: 25px;
+    background: linear-gradient(to bottom, #da0601, #700909);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.floatServiceItem > div {
+    position: absolute;
+    right: 11px;
+    top: 7px;
+    border: 8px solid transparent;
+    border-top: 12px solid #fbf0c9;
+}
+
+.floatServiceItem > p {
+    font-size: 14px;
+    font-family: Tahoma;
+    font-weight: 700;
+    color: #fff;
+}
+
+.floatMenuBlocks {
+    position: fixed;
+    top: 25px;
+    left: 15px;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+}
+
+.floatNavigationMenu {
+    position: fixed;
+    top: 25px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.floatNavigationMenu > div {
+    display: flex;
+    max-width: 450px;
+    min-width: 450px;
+    max-height: 25px;
+    min-height: 25px;
+    background: linear-gradient(to bottom, #da0601, #700909);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.floatNavigationMenu > div:active {
+    background: linear-gradient(to bottom, #b4b4b4, #201d1d);
+}
+
+.floatNavigationMenu > div > p {
+    font-size: 14px;
+    font-family: Tahoma;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+@media (max-width: 1367px) {
+    .headerContainer {
+        padding: 0 20px;
+    }
+
+    .headerTop {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .headerLogoContainer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 356px;
+        min-width: 356px;
+    }
+
+    .swanPaint {
+        width: 177px;
+        height: 83px;
+    }
+
+    .nameLogo {
+        width: 135px;
+        height: 57px;
+        top: 32px;
+    }
+
+    .swanText {
+        width: 163px;
+        height: 75px;
+        left: 193px;
+    }
+
+    .headerLogoContainer > p {
+        font-size: 11.34px;
+        left: 102px;
+        top: 23px;
+    }
+
+    .linksBlock {
+        flex-wrap: nowrap;
+        gap: 13px;
+        margin: 0;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .telBtnContainer {
+        margin-left: 378px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 22px;
+    }
+
+    .tel {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        max-width: 447px;
+        min-width: 447px;
+        margin: 0 20px 0 0;
+    }
+
+    .headerButton > button {
+        padding: 20px 19px 20px 21px;
+        font-size: 19px;
+        font-family: Tahoma;
+        font-weight: 700;
+        background: linear-gradient(to bottom, #d20300, #710909);
+        margin-top: 15px;
+        border: none;
+    }
+
+    .headerButton > button:first-child {
+        margin-right: 20px;
+    }
+
+    .headerBottom {
+        display: flex;
+        padding: 0 10px;
+        gap: 50px
+    }
+
+    .floatNavigation > div {
+        min-height: 60px;
+        max-height: 60px;
+        min-width: 310px;
+    }
+
+    .floatNavigation > div:nth-child(2) {
+        min-width: 330px;
+    }
+
+    .floatNavigation > div:nth-child(3) {
+        min-width: 338px;
+    }
+
+    .floatNavigation > div:last-child {
+        min-width: 389px;
+    }
+
+    .floatNavbar > div {
+        padding: 13px 26px 16px 25px;
+    }
+
+    .floatNavbar > div:first-child {
+        padding: 13px 27px 16px 34px;
+    }
+
+    .floatNavbar > div:last-child {
+        padding: 13px 34px 16px 27px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .telBtnContainer {
+        margin-left: 362px;
+        margin-top: 17px;
+    }
+
+    .tel {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        max-width: 181px;
+        min-width: 181px;
+    }
+
+    .tel > p {
+        font-size: 17px;
+    }
+
+    .headerButton > button {
+        padding: 0 0;
+        font-size: 18px;
+        margin-top: 0;
+        max-height: 52px;
+        min-height: 52px;
+        max-width: 256px;
+        min-width: 256px;
+    }
+
+    .headerButton > button:nth-child(2) {
+        max-width: 137px;
+        min-width: 137px;
+    }
+
+    .linksBlock {
+        gap: 10px;
+    }
+
+    .linksBlock > a {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .linksBlock > div {
+        height: 20px;
+        margin-top: 1px;
+    }
+
+    .headerBottom {
+        padding: 15px 0 0 0;
+        gap: 36px
+    }
+
+
+    .headerBottom > a {
+        font-size: 14px;
+    }
+
+    .floatNavigation > div {
+        min-width: 232px;
+    }
+
+    .floatNavigation > div:nth-child(2) {
+        min-width: 248px;
+    }
+
+    .floatNavigation > div:nth-child(3) {
+        min-width: 253px;
+    }
+
+    .floatNavigation > div:last-child {
+        min-width: 292px;
+    }
+
+    .floatNavbar > div {
+        padding: 7px 18px 8px 18px;
+    }
+
+    .floatNavbar > div:first-child {
+        padding: 7px 20px 8px 21px;
+    }
+
+    .floatNavbar > div:last-child {
+        padding: 7px 21px 8px 20px;
+    }
+
+    .floatNavbar > div > a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .headerContainer {
+        padding: 0 15px;
+    }
+
+    .swanText {
+        left: 184px;
+    }
+
+    .telBtnContainer {
+        margin-left: 356px;
+        margin-top: 17px;
+        margin-bottom: 0;
+        align-items: flex-start;
+    }
+
+    .tel {
+        max-width: 146px;
+        min-width: 146px;
+        margin: 0 15px 0 0;
+    }
+
+    .tel > p {
+        font-size: 14px;
+    }
+
+    .linksBlock {
+        position: absolute;
+        left: 0;
+        top: 102px;
+        max-width: 445px;
+        min-width: 445px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .linksBlock > a {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    .linksBlock > div {
+        height: 18px;
+        margin-top: 2px;
+    }
+
+    .headerButton {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .headerButton > button {
+        padding: 0 0;
+        font-size: 16px;
+        margin-top: 0;
+        max-height: 52px;
+        min-height: 52px;
+        max-width: 219px;
+        min-width: 219px;
+    }
+
+    .headerButton > button:first-child {
+        margin-right: 0;
+    }
+
+    .headerButton > button:nth-child(2) {
+        max-width: 219px;
+        min-width: 219px;
+    }
+
+    .headerBottom {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 0;
+        margin-top: 15px;
+        gap: 0;
+    }
+
+    .headerBottom > a {
+        margin-right: 38px;
+        margin-bottom: 15px;
+    }
+
+    .headerBottom > a:nth-child(7) {
+        margin-right: 0;
+    }
+
+    .floatNavigation > div > p {
+        font-size: 16px;
+    }
+
+    .floatNavigation > div:last-child > div > p {
+        font-size: 16px;
+    }
+
+    .floatNavigation > div {
+        min-width: 174px;
+    }
+
+    .floatNavigation > div:nth-child(2) {
+        min-width: 186px;
+    }
+
+    .floatNavigation > div:nth-child(3) {
+        min-width: 189px;
+    }
+
+    .floatNavigation > div:last-child {
+        min-width: 219px;
+    }
+
+    .floatNavigation > div:last-child > div {
+        gap: 3px;
+    }
+
+    .floatNavigation > div:last-child > div:first-child {
+        margin-right: 15px;
+    }
+
+    .floatNavbar {
+        max-width: 768px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1px;
+    }
+
+    .floatNavbar > div:first-child {
+        padding: 7px 20px 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .headerContainer {
+        padding: 0 15px;
+    }
+
+    .headerTop {
+        margin-top: 28px;
+    }
+
+    .telBtnContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .telBtnContainer {
+        margin-left: 0;
+        margin-top: 160px;
+        margin-bottom: 0;
+        align-items: flex-start;
+    }
+
+    .linksBlock {
+        position: absolute;
+        left: 0;
+        top: 102px;
+        max-width: 450px;
+        min-width: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .linksBlock > a {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .linksBlock > div {
+        height: 15px;
+        width: 2px;
+    }
+
+    .tel {
+        max-width: 450px;
+        min-width: 450px;
+        margin: 0 0 15px 0;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .tel > p {
+        font-size: 15px;
+    }
+
+    .swanPaint {
+        top: 1px;
+        left: 53px;
+    }
+
+    .nameLogo {
+        position: absolute;
+        left: 67px;
+        top: 31px;
+    }
+
+    .swanText {
+        position: absolute;
+        top: 9px;
+        left: 235px;
+    }
+
+    .headerLogoContainer > p {
+        font-size: 14px;
+        left: 155px;
+        top: 19px;
+    }
+
+    .headerButton {
+        flex-direction: row;
+        gap: 14px;
+    }
+
+    .headerButton > button {
+        max-width: 218px;
+        min-width: 218px;
+    }
+
+    .headerButton > button:nth-child(2) {
+        max-width: 218px;
+        min-width: 218px;
+    }
+
+    .headerBottom {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .headerContainer {
+        padding: 0 11px;
+    }
+
+    .swanPaint {
+        top: 1px;
+        left: 0;
+        width: 153px;
+        height: 71px;
+    }
+
+    .nameLogo {
+        left: 13px;
+        top: 31px;
+        width: 133px;
+        height: 45px;
+    }
+
+    .headerLogoContainer > p {
+        font-size: 12px;
+        left: 88px;
+        top: 16px;
+    }
+
+    .swanText {
+        left: 158px;
+        width: 140px;
+        height: 62px;
+    }
+
+    .linksBlock {
+        top: 91px;
+        max-width: 300px;
+        min-width: 300px;
+        gap: 5px;
+    }
+
+    .linksBlock > a {
+        font-size: 14px;
+    }
+
+    .tel {
+        gap: 8px;
+        max-width: 300px;
+        min-width: 300px;
+        margin: 0 0 18px 0;
+    }
+
+    .tel > p {
+        font-size: 14px;
+    }
+
+    .headerButton {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .headerButton > button {
+        max-width: 300px;
+        min-width: 300px;
+    }
+
+    .headerButton > button:nth-child(2) {
+        max-width: 300px;
+        min-width: 300px;
+    }
+
+    .serviceItem {
+        max-width: 300px;
+        min-width: 300px;
+    }
+
+    .navItem {
+        max-width: 300px;
+        min-width: 300px;
+    }
+
+    .menuItemContainer {
+        max-width: 300px;
+        min-width: 300px;
+    }
+
+    .menuItem {
+        max-width: 300px;
+        min-width: 300px;
+    }
+
+    .menuPhotoContainer {
+        max-width: 300px;
+        min-width: 300px;
+    }
+
+    .floatServiceItem {
+        max-width: 300px;
+        min-width: 300px;
+        left: 10px;
+    }
+
+    .floatMenuBlocks {
+        left: 10px;
+    }
+
+    .floatNavigationMenu {
+        left: 10px;
+    }
+
+    .floatNavigationMenu > div {
+        max-width: 300px;
+        min-width: 300px;
+    }
+}
